@@ -1,0 +1,7 @@
+---
+- name: Converge
+  hosts: all
+  tasks:
+    - name: "Include fueledbyjordan.ansible_role_utilites"
+      ansible.builtin.include_role:
+        name: "fueledbyjordan.ansible_role_utilites"

@@ -1,0 +1,13 @@
+---
+# tasks file for ansible-role-utilities
+
+- name: Install packages
+  ansible.builtin.package:
+    name:
+      - htop
+      - ncdu
+      - neovim
+      - rsync
+      - tmux
+      - vim
+      - wget

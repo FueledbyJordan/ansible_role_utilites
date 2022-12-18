@@ -1,0 +1,19 @@
+galaxy_info:
+  author: Jordan Murray
+  namespace: fueledbyjordan
+  description: Installs system utiltities I like on my machines.
+  company: Murrayfoundry
+
+  license: MIT
+
+  min_ansible_version: '2.1'
+
+  platforms:
+  - name: RedHat
+    versions:
+    - 7
+    - 8
+
+  galaxy_tags: []
+
+dependencies: []
